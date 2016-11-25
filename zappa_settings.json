@@ -1,0 +1,16 @@
+{
+    "dev": {
+        "app_function": "server.app", 
+        "s3_bucket": "dev-gitlab-crucible-hook"
+        "environment_variables": {
+            "CRUCIBLE_BASE_URL": "<YOUR_URL_HERE>"
+        }
+    }
+    "prod": {
+        "app_function": "server.app", 
+        "s3_bucket": "prod-gitlab-crucible-hook"
+        "environment_variables": {
+            "CRUCIBLE_BASE_URL": "<YOUR_URL_HERE>"
+        }
+    }
+}
